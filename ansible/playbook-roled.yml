@@ -4,4 +4,4 @@
   tasks:
   roles:
     - hostname
-    - httpd
+    - unix_groups
