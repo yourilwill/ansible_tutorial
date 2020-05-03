@@ -3,4 +3,5 @@
   become_user: root
   tasks:
   roles:
+    - hostname
     - httpd
