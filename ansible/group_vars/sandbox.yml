@@ -1,6 +1,6 @@
 httpd:
   mpm:
-    StartServers: 10
+    StartServers: 20
     MinSpareServers: 10
     MaxSpareServers: 30
     ServerLimit: 1000
