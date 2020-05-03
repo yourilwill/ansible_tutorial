@@ -11,3 +11,4 @@
     - {role: sudoers/allow-httpd, group_name: group_b}
     - jenkins
     - cron/yum_autoupdate
+    - samples/shell
