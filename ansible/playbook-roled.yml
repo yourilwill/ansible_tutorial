@@ -5,3 +5,4 @@
   roles:
     - hostname
     - unix_groups
+    - unix_users
