@@ -1,0 +1,10 @@
+- hosts: ec2-sandbox
+  become: yes
+  become_user: root
+  tasks:
+    - debug:
+        msg: "{{ ansible_distribution }}"
+    - debug:
+        msg: "{{ ansible_os_family }}"
+    - debug:
+        msg: "{{ ansible_distribution_major_version }}"
