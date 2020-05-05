@@ -29,4 +29,14 @@
     - {role: sudoers/allow-all, group_name: group_a}
     - {role: sudoers/allow-httpd, group_name: group_b}
     - cron/yum_autoupdate
-    - { role: geerlingguy.mysql }
+    - role: geerlingguy.mysql
+      mysql_root_password: hogehoge
+      mysql_databases:
+        - name: l4a_db
+          encoding: utf8
+          collation: utf8_unicode_ci
+      mysql_users:
+        - name: l4a_user
+          host: "%"
+          password: fugafuga
+          priv: "l4a_db.*:ALL"
