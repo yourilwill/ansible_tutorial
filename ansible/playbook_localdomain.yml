@@ -40,3 +40,4 @@
           host: "%"
           password: fugafuga
           priv: "l4a_db.*:ALL"
+    - php
