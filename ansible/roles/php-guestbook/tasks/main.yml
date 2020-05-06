@@ -3,6 +3,11 @@
     state: directory
     mode: 0755
 
+- name:
+  yum:
+    name: mysql-community-client
+    state: latest
+
 - git:
     repo: 'https://github.com/Orchestrabit/php-guestbook.git'
     dest: /var/webapps/php-guestbook
@@ -17,7 +22,7 @@
     mode: 0644
 
 - name:
-  shell: mysql --user={{ db_user }} --password={{ db_pass }} {{ db_name }} < create_tbl_guestbook.sql
+  shell: mysql --user={{ db_user }} --password={{ db_pass }} {{ db_name }} -h {{ db_host }} < create_tbl_guestbook.sql
   args:
     chdir: /var/webapps/php-guestbook/sql
 
