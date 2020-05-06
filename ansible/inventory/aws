@@ -1,0 +1,6 @@
+[l4a-web]
+ec2-3-112-238-87.ap-northeast-1.compute.amazonaws.com
+ec2-18-179-199-219.ap-northeast-1.compute.amazonaws.com
+
+[l4a-db]
+ec2-13-114-142-49.ap-northeast-1.compute.amazonaws.com
