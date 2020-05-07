@@ -3,3 +3,9 @@
   gather_facts: no
   roles:
     - ec2
+
+- hosts: l4a-db
+  connection: local
+  gather_facts: no
+  roles:
+    - ec2

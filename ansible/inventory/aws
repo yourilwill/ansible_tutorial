@@ -1,2 +1,7 @@
 [l4a-web]
-l4a-web01.yourilforte.tk
+l4a-web01.yourilforte.tk ec2_vpc_subnet_id=subnet-00685aa9cd06d3475
+l4a-web02.yourilforte.tk ec2_vpc_subnet_id=subnet-0ace2c15dcd0e75cc
+
+[l4a-db]
+l4a-db01.yourilforte.tk ec2_vpc_subnet_id=subnet-00685aa9cd06d3475
+
