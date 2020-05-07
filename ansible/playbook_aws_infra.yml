@@ -1,0 +1,5 @@
+- hosts: l4a-web
+  connection: local
+  gather_facts: no
+  roles:
+    - ec2
