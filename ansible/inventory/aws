@@ -5,3 +5,4 @@ l4a-web02.yourilforte.tk ec2_vpc_subnet_id=subnet-0ace2c15dcd0e75cc
 [l4a-db]
 l4a-db01.yourilforte.tk ec2_vpc_subnet_id=subnet-00685aa9cd06d3475
 
+localhost ansible_python_interpreter=/usr/bin/python
