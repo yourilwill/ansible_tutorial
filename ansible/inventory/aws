@@ -1,6 +1,8 @@
 [l4a-web]
-ec2-3-112-238-87.ap-northeast-1.compute.amazonaws.com
-ec2-18-179-199-219.ap-northeast-1.compute.amazonaws.com
+l4a-web01.yourilforte.tk ec2_vpc_subnet_id=subnet-00685aa9cd06d3475
+l4a-web02.yourilforte.tk ec2_vpc_subnet_id=subnet-0ace2c15dcd0e75cc
 
 [l4a-db]
-ec2-13-114-142-49.ap-northeast-1.compute.amazonaws.com
+l4a-db01.yourilforte.tk ec2_vpc_subnet_id=subnet-00685aa9cd06d3475
+
+localhost ansible_python_interpreter=/usr/bin/python
